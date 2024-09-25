@@ -18,7 +18,7 @@ export function CreationApp() {
     console.log(`window.location.host ${window.location.host}`);
 
     if (window.location.host.substring(0, "localhost".length) !== "localhost") {
-        urlRoot = "https://fvjosef21.github.io/fira-certificates-validation/";
+        urlRoot = "https://firarobotsports.github.io/fira-certificate-validation/";
     } else {
         urlRoot = window.location.toString();
     }
