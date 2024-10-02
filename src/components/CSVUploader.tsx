@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { csv2json } from 'json-2-csv';
-import { CertificatesLoader } from './Certificate';
+import { CertificatesLoader } from '../Certificate';
 import { ChangeEventHandler, ChangeEvent } from 'react';
 export interface CSVUploaderProps {
     loader: CertificatesLoader;

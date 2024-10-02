@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { CertificateInfo, splitCertificateParam, certificateFromURL } from '../Certificate';
 import { hexToArrayBuffer, base64ToArrayBuffer, stringToArrayBuffer } from '../arraybuffer_utils';
+import './ValidationApp.css';
 
 export function ValidationApp() {
     //const loading : ReactNode = <><div>Loading</div></>

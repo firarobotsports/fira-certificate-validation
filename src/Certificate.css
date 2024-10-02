@@ -69,13 +69,3 @@
     padding: 16px;
 }
 
-.testcertificate {
-    position: absolute; /* Sit on top of the page content */
-    width: 210mm;     /* Full width */
-    height: 297mm;    /* Full height */
-    top: 0;
-    left: 0;
-    font-size: 128pt;
-    background-color: yellow /* Black background with opacity */
-    z-index: 20;      /* Specify a stack order */
-  }

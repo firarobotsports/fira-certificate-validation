@@ -8,7 +8,7 @@
 .certificateError {
   color: red;
   font-size: 128pt;
-  background-color: beige;
+  background: beige;
 }
 
 .logo {
@@ -45,19 +45,20 @@
   height: 100%;    /* Full height */
   top: 0;
   left: 0;
-  background-color: rgba(200, 10, 18, 0.75); /* Black background with opacity */
-  z-index: 2;      /* Specify a stack order */
+  font-size: 144pt;
+  background: rgba(100, 10, 18, 0.5); /* Black background with opacity */
+  z-index: 5;      /* Specify a stack order */
   cursor: pointer; /* Add a pointer on hover */
 }
 
 .testcertificateoverlay {
   position: absolute;
   width: 210mm;
-  height: 500mm;
-  top: 5cm;
+  height: 200mm;
+  top: 9cm;
   left:5cm;
-  background-color: rgba(200,10,10,0.75);
-  color: rgb(255, 255, 15);
+  background: rgba(100,10,10,0.5);
+  color: rgb(220, 220, 15);
   font-size: 128pt;
-  z-index: 1;
+  z-index: 10;
 }
